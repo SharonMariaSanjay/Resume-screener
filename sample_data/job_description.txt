@@ -1,0 +1,18 @@
+Role: HR Operations Executive
+
+We're looking for an HR Operations Executive to join our People team. You'll own
+day-to-day HR processes, support recruitment coordination, and help build out
+employee wellbeing programs.
+
+Requirements:
+- 1-3 years experience in HR operations, generalist HR, or recruitment coordination
+- Familiarity with HRIS tools (any platform)
+- Experience supporting or running employee wellbeing / engagement initiatives
+- Strong written communication skills
+- Comfortable working with data in spreadsheets; basic SQL is a plus
+- Background in psychology or organizational behavior is a plus
+- Exposure to AI tools for HR workflows (screening, sentiment analysis) is a strong plus
+
+Nice to have:
+- Experience with performance management cycles
+- Prior work on process documentation or SOPs

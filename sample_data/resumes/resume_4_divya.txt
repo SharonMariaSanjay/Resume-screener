@@ -1,0 +1,18 @@
+Divya Raghavan
+HR Operations & People Analytics
+
+Experience:
+- HR Operations Executive, NimbusTech (2.5 years)
+  - Ran end-to-end recruitment coordination for tech and non-tech roles
+  - Built and maintained employee engagement dashboards using Excel and basic SQL
+  - Designed and ran an employee wellbeing pulse-check program (quarterly)
+  - Experimented with an LLM-based tool to summarize exit interview feedback
+    into themes for leadership review
+  - Wrote and maintained onboarding and leave-policy SOPs
+
+Education:
+- MA Organizational Psychology
+
+Skills:
+- HRIS (SAP SuccessFactors), SQL (basic joins/filters), Excel, employee
+  wellbeing program design, exposure to AI tools for HR workflows
