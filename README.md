@@ -4,8 +4,6 @@ A tool that scores a batch of resumes against a job description using NLP
 (TF-IDF + cosine similarity) and keyword analysis, and returns a ranked
 shortlist with matched skills, gaps, and a fit summary for each candidate.
 
-Runs **entirely locally** — no API key, no signup, no cost.
-
 ## Why I built this
 
 HR teams spend a lot of time on first-pass resume screening. This project
@@ -33,9 +31,6 @@ description.
 pip install -r requirements.txt
 python screen.py
 ```
-
-That's it — no API key, no environment variables, no internet connection
-required after installing the package.
 
 ## Sample data
 
@@ -71,9 +66,7 @@ resume_3_karan  —  Score: 7.3/100
   Matched: None
 ```
 
-*(This is a real run of the code in this repo, not a mocked example.)*
-
-## Design choices worth calling out in an interview
+## Design Decisions 
 
 - **TF-IDF + cosine similarity** instead of a paid LLM API — keeps the tool
   free and fully offline, and the scoring logic is transparent and
@@ -89,12 +82,3 @@ resume_3_karan  —  Score: 7.3/100
   phrase-level or embedding-based matching to handle this properly.
 - **Synthetic sample data** — lets anyone run this end-to-end without real
   candidate data, and makes the ranking logic easy to verify.
-
-## Possible extensions
-
-- Swap TF-IDF for sentence embeddings (e.g. `sentence-transformers`, also
-  free and local) for more semantic (not just word-overlap) matching
-- PDF resume parsing (currently plain text for simplicity)
-- A minimal Streamlit UI for uploading a JD + resumes
-- Handle negation explicitly (e.g. simple regex for "no X" / "without X"
-  before keyword matching)
